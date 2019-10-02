@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+/*header start*/
+header{
+    background-color:#121B2A;
+    padding: 10px 0;  
+}
+.wrapper {
+    /*border: 5px solid yellowgreen;*/
+    width: 80%;
+    margin:0 auto;
+    overflow: hidden;
+}
+.logo {
+    width: 15%;
+    /*border: 1px solid white;*/
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu {
+    width: 70%;
+    margin-top: 30px;
+    /*border: 1px solid white;*/
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style:none;
+    float:left;
+}
+.menu ul li a{
+    text-decoration:none;
+    padding:5px 15px;
+    display:block;
+    color:white;
+    transition: .5s;
+}
+.menu ul li:last-child a{
+    padding-right:0;
+}
+.menu ul li a:hover{
+    color:#0178BD;
+}
+/*header end*/
+/* Banner start*/
+.banner {
+    background-image: url(../Images/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*min-height: 300px;*/
+    background-position: center;
+}
+.banner-content {
+    margin: 200px 0px 50px;
+    width:30%;   
+}
+.banner-content p:first-child{
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.banner-content h1{
+    color:#0075B7;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.banner-content p:nth-last-child(2){
+    color:white;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.banner-content button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #5A5A5A;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: white;
+}
+.banner-content button span{
+    background-color: blue;
+    padding: 6px 10px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 10px;
+}
+/* Banner end*/
+/* service start */
+.service{
+    background-color: #121B2C;
+    padding:50px 0;
+}
+.single{
+    width:28%;
+    padding: 10px 10px;
+    float: left;
+    border-right:1px solid white;
+    margin-left: 35px
+}
+.single:last-child{
+    border-right: 0;
+}
+.title{
+    overflow: hidden;
+}
+.icon{
+    width: 25%;
+    float: left;
+}
+.icon img{
+    width: 80%
+}
+.icon-content{
+    width: 70%;
+    float: left;
+    margin-top: 10px;
+}
+.icon-content h1{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 34px;
+}
+.icon-content h2{
+    color: #02639D;
+    font-family: sans-serif;
+}
+.content p{
+    color: white;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin-right: 2px;
+}
+/* service end */
+/*Last section start*/
+.last-section{
+    background-color: #040811;
+    padding: 50px 0;
+}
+/*Oceans start*/
+.oceans{
+    width: 33.33%;
+    float: left;
+}
+.brand{
+    color: #3C78BD;
+    margin-left: 5px;
+}
+.oceans h1{
+    color: white;
+    margin-left: 42px;
+}
+.oceans p{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 42px;
+}
+/*Oceans end*/
+/*CT Start*/
+.ct{
+    width: 33.33%;
+    float: left;
+}
+.ct h1{
+    color: white;
+}
+.testimonial{
+   color: #3C78BD;
+    margin-left: 5px;   
+}
+.ct p{
+   font-size: 18px;
+    color: white;
+    margin-top: 5px; 
+}
+/*CT End*/
+/*mobile section start*/
+.mobile{
+    overflow: hidden;
+     width: 25%;
+     margin-right: 70px;
+    float: right;
+}
+.mobile-content{
+   float: right;
+}
+.mobile-content h1{
+    color: white;
+}
+.brand-2{
+    color: #3C78BD;
+}
+/*mobile section end*/
+/*Last section end*/
+/*Footer start*/
+.footer{
+background-color: #121B2C;
+}
+.footer_menu{
+    padding-top: 25px;
+    width: 45%;
+    float: left;
+}
+.footer_menu ul{
+    float: left;
+}
+.footer_menu ul li{
+    list-style:none;
+    float:left;
+}
+.footer_menu ul li a{
+    text-decoration:none;
+    padding:15px 10px;
+    display:block;
+    color:white;
+    transition: .5s;
+}
+.footer_menu p{
+    color: white;
+    margin-left: 8px;
+}
+.f_menu{
+    width: 35%;
+    float:right;
+    padding-top: 25px;
+}
+.symbian{
+    margin-bottom: 45px;
+    width: 45%;
+    float: left;
+}
+.ceans_edge{
+    width: 45%;
+    float: right;
+}
+/*Footer end*/
+
